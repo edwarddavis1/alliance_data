@@ -9,11 +9,11 @@ Provides a (non-exhaustive) list of military alliances over time.
 - **Members**: after the alliance name, there is a TAB-separated list of countries that are a part of that alliance.
 
 ## Example
-If alliance_1 starts in 2018 between country_1 and country_2 and then country_3 joins in 2020, the following is how the data would be represented if the alliance has not changed since 2020.
+If alliance_1 starts in 2018 between country_1 and country_2 and then country_3 joins in 2020, the following is how the data would be represented if the alliance has not changed since 2020. Note separations are TABs. 
 
 ```
-  2018-2020 alliance_1  country_1 country_2
-  2020  alliance_1  country_1 country_2 country_3
+2018-2020 alliance_1  country_1 country_2
+2020  alliance_1  country_1 country_2 country_3
 ```
 
 ## Reading in data with pandas
