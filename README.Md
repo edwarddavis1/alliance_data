@@ -18,8 +18,7 @@ If alliance_1 starts in 2018 between country_1 and country_2 and then country_3 
 
 ## Reading in data with pandas
 ```
-df = pd.read_csv("timestamped_alliances_sept2022_processed.txt",
-                 delimiter="\t", header=None)
+df = pd.read_csv("alliances.txt", delimiter="\t", header=None)
 df.columns = ["Year", "Alliance", "Members"]
 ```
 
